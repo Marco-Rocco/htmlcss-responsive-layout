@@ -109,7 +109,17 @@ main{
     color: #ff0000;
  }
 
+/* ad  */
 
+.ad {
+    width: 90%;
+    margin: auto;
+    display: none;
+}
+
+.ad img{
+    width: 100%;
+}
 /* tablet  */
 
 @media screen and (min-width: 768px) and (max-width: 992px){
