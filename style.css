@@ -182,15 +182,19 @@ main{
     border-radius: 25px;
    }
 
+   .ad {
+    display:block;
+   }
+
    .presentation img{
     width: 70%;
     margin: 5px;
     float: left;
-}
+    }
 
-.presentation p{
-    line-height: 2;
-}
+    .presentation p{
+        line-height: 2;
+    }
 }
 
 /* desktop */
@@ -233,13 +237,17 @@ main{
     color: black
    }
 
+   .ad {
+    display:block;
+   }
+
    .presentation img{
     width: 70%;
     margin: 5px;
     float: left;
 }
 
-.presentation p{
-    line-height: 2;
-}
+    .presentation p{
+        line-height: 2;
+    }
 }
