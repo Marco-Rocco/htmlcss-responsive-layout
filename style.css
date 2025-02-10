@@ -1,4 +1,6 @@
 
+/* general */
+
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 
 
@@ -8,6 +10,9 @@
   box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
 /* header  */
 
 header {
@@ -47,10 +52,6 @@ main{
     display: flex;
     flex-wrap: wrap;
     background-color: white;
-}
-
-.container img {
-    width: 100%;
 }
 
 .img{
@@ -117,9 +118,37 @@ main{
     display: none;
 }
 
-.ad img{
-    width: 100%;
+/* presentation */
+
+.presentation{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
 }
+
+.presentation h2{
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.rule{
+    width: 20%;
+    border-top: 2px solid #ff9614; 
+    margin-bottom: 20px;        
+}
+
+.presentation img{
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.presentation p{
+    font-weight: lighter;
+    line-height: 1.5;
+}
+
 /* tablet  */
 
 @media screen and (min-width: 768px) and (max-width: 992px){
