@@ -15,11 +15,41 @@ header {
     color: #ff9614;
     text-align: center;
     padding: 10px 5px;
+    background-color: white;
+}
+
+/* main  */
+
+main{
+    background-color: #f6f5f3;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.recipe {
+    width: 90%;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.recipe span{
+    font-weight: lighter;
+    color: gray;
+}
+
+.recipe h3 {
+    color: #4e3969;
+    margin: 10px 0px
+}
+
+.recipe img {
+    width: 100%;
 }
 
 /* tablet  */
-@media screen and (min-width: 768px)  and (max-width: 992px){
+@media screen and (min-width: 768px) {
    header {
     text-align: left;
    }
 }
+
+/* desktop */
