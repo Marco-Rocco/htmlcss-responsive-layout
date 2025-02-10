@@ -101,6 +101,10 @@ main{
     color: #c13584;
  }
 
+.pn{
+    color: #bd081c;
+ }
+
  .yt{
     color: #ff0000;
  }
@@ -163,5 +167,20 @@ main{
 
    .list ul{
     line-height: 2;
+   }
+
+   .social{
+    gap: 20px;
+   }
+
+   .social div{
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 25px;
+   }
+
+   .social span{
+    display: inline;
+    color: black
    }
 }
