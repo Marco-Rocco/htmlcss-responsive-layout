@@ -71,6 +71,22 @@ main{
 
 /* social  */
 
+.social{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .social div{
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 45%;
+ }
+
+.social span{
+    display: none;
+ }
 
 
 /* tablet  */
