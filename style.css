@@ -41,8 +41,25 @@ main{
     margin: 10px 0px
 }
 
-.recipe img {
+.container{
+    display: flex;
+    flex-wrap: wrap;
+background-color: white;
+}
+
+.container img {
     width: 100%;
+}
+
+.list {
+    padding: 10px;
+}
+
+.list ul{
+    list-style-type: none;
+    font-weight: lighter;
+    margin: 10px 0px;
+    line-height: 1.5;
 }
 
 /* tablet  */
