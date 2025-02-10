@@ -149,6 +149,56 @@ main{
     line-height: 1.5;
 }
 
+/* footer  */
+
+footer{
+    background-color: #7c69a4;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    padding: 20px;
+}
+
+footer p{
+    width: 90%;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+footer .container{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.adress{
+    text-align: center;
+    font-size: smaller;
+    margin-bottom: 10px;
+
+}
+
+.links{
+    font-size: smaller;
+    padding: 0px 20px;
+}
+
+.links ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-align: center;
+}
+
+footer ul a{
+    color: white;
+}
+
+.links li{
+    margin: 5px;
+}
 /* tablet  */
 
 @media screen and (min-width: 768px) and (max-width: 992px){
