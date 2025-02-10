@@ -181,6 +181,16 @@ main{
     text-align: center;
     border-radius: 25px;
    }
+
+   .presentation img{
+    width: 70%;
+    margin: 5px;
+    float: left;
+}
+
+.presentation p{
+    line-height: 2;
+}
 }
 
 /* desktop */
@@ -222,4 +232,14 @@ main{
     display: inline;
     color: black
    }
+
+   .presentation img{
+    width: 70%;
+    margin: 5px;
+    float: left;
+}
+
+.presentation p{
+    line-height: 2;
+}
 }
