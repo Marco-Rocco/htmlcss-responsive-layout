@@ -44,7 +44,7 @@ main{
 .container{
     display: flex;
     flex-wrap: wrap;
-background-color: white;
+    background-color: white;
 }
 
 .container img {
@@ -64,10 +64,15 @@ background-color: white;
 
 /* tablet  */
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+/* header  */
+
    header {
     text-align: left;
    }
+
+/* main  */
 
    .list ul {
     display: flex;
@@ -82,3 +87,27 @@ background-color: white;
 }
 
 /* desktop */
+
+@media screen and (min-width: 992px) {
+    
+/* header  */
+
+    header{
+        text-align: left;
+    }
+
+    /* main  */
+
+   .img{
+    width: 70%;
+   }
+
+   .list{
+    width: 30%;
+    padding-top: 30px;
+   }
+
+   .list ul{
+    line-height: 2;
+   }
+}
