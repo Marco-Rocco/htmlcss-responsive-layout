@@ -250,7 +250,14 @@ footer ul a{
 /* desktop */
 
 @media screen and (min-width: 992px) {
-    
+
+/* general  */
+
+    .recipe,.social, .ad, .presentation, footer p{
+        width: 70%;
+        margin: auto;
+    }
+
 /* header  */
 
     header{
@@ -292,13 +299,13 @@ footer ul a{
    }
 
    .presentation img{
-    width: 70%;
+    width: 30%;
     margin: 5px;
     float: left;
 }
 
     .presentation p{
-        line-height: 2;
+        line-height: 2.5;
     }
 
     /* footer  */
