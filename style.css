@@ -300,4 +300,33 @@ footer ul a{
     .presentation p{
         line-height: 2;
     }
+
+    /* footer  */
+
+    footer .container{
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer p{
+    text-align: left;    
+    margin: 10px 0px;
+}
+    
+
+    .adress{
+        flex-grow: 1;
+        text-align: left;
+    }
+    
+    .links{
+        flex-grow: 1;
+    }
+
+    .links ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
 }
