@@ -14,7 +14,7 @@ header {
     font-family: "Nerko One", serif;
     color: #ff9614;
     text-align: center;
-    padding: 10px 5px;
+    padding: 10px;
     background-color: white;
 }
 
@@ -76,6 +76,7 @@ main{
     margin: auto;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
  }
 
  .social div{
@@ -88,10 +89,26 @@ main{
     display: none;
  }
 
+.fb{
+    color: #3b5998;
+ }
+
+ .tw{
+    color: #00acee;
+ }
+
+ .ig{
+    color: #c13584;
+ }
+
+ .yt{
+    color: #ff0000;
+ }
+
 
 /* tablet  */
 
-@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 768px) and (max-width: 992px){
 
 /* header  */
 
@@ -111,6 +128,16 @@ main{
    .list li{
     width: calc((100% - 60px) /3);
    }
+
+   .social{
+    gap: 20px;
+   }
+
+   .social div{
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 25px;
+   }
 }
 
 /* desktop */
@@ -123,7 +150,7 @@ main{
         text-align: left;
     }
 
-    /* main  */
+/* main  */
 
    .img{
     width: 70%;
