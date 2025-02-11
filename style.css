@@ -48,6 +48,11 @@ main{
     margin: 10px 0px
 }
 
+.recipe h3 span{
+    display: none;
+    color:#4e3969;
+}
+
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -211,6 +216,10 @@ footer ul a{
 
 /* main  */
 
+    .recipe h3 span{
+    display: inline;
+    }
+
    .list ul {
     display: flex;
     flex-wrap: wrap;
@@ -265,6 +274,11 @@ footer ul a{
     }
 
 /* main  */
+
+
+    .recipe h3 span{
+        display: inline;
+    }
 
    .img{
     width: 70%;
